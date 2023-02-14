@@ -320,8 +320,9 @@ h6 {
   width: 100%;
   height: 80vh;
   background: url(../img/fell.jpg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
+  margin-top: 60px;
 }
 
 #hero .container {
