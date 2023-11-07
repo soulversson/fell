@@ -35,16 +35,16 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo"><img src="assets/img/logo-no-background.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="logo"><img src="assets/img/logo-no-background-en..png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="./index.html">Heim</a></li>
-          <li><a class="nav-link scrollto" href="./about-us.html">Um okkur</a></li>
-          <li><a class="nav-link scrollto" href="./rooms.html">Herbergi</a></li>
-          <li><a class="nav-link scrollto " href="./location.html">Umhverfið</a></li>
-          <li><a class="nav-link scrollto active" href="./book.html">Sækja um</a></li>
-          <li><a class="nav-link scrollto" href="./index-en.html">English</a></li>
+          <li><a class="nav-link scrollto" href="./index-en.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="./about-us-en.html">About Us</a></li>
+          <li><a class="nav-link scrollto" href="./rooms-en.html">Rooms</a></li>
+          <li><a class="nav-link scrollto" href="./location-en.html">Location</a></li>
+          <li><a class="nav-link scrollto active" href="./book-en.html">Book</a></li>
+          <li><a class="nav-link scrollto" href="./index.html">Íslenska</a></li>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -66,67 +66,67 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Umsókn um aðstöðu</h2>
-          <p>Fell art residency verður opið frá 10. janúar - 31. maí og frá 15. ágúst til 15. desember.</p>
+          <h2>Apply for space</h2>
+          <p>Fell Residency is open from January 10 - May 31 and from August 15 to December 15.</p>
           
         </div>
 
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <p>Hægt er að sækja um dvöl að lágmarki eina viku og að hámarki 12 vikur.</p>
-              <p>Leiguverð fyrir vikudvöl er sem hér segir:
-              <br/>Eins manns herbergi: 30.000 kr. eða 220 EUR
-              <br/>Tveggja manna herbergi 45.000 kr. eða 325 EUR</p>
+            <p>The duration of each stay is at minimum one week and 12 weeks at the most.</p>
+              <p>The rent price for a one-week stay is as follows:
+              <br/>A single room (for one person): 30.000 ISK or 220 EUR
+              <br/>A double room (for two people): 45.000 ISK or 325 EUR</p>
 
-                <p>Tímabil er í vikum og eru skiptidagar á föstudögum.<br/>Innritun kl 17:00<br/>Brottför kl 12:00</p>
+                <p>Period is in weeks and there are arrival and departure days on Fridays.<br/>Check-in at 17:00<br/>Departure at 12:00</p>
 
-                <p>Innifalið í leiguverði eru rúmföt, handklæði, hreinlætisvörur og WiFi </p>
+                <p>Included in the price are towels and bedclothes, sanitary products, WiFi and access to communal spaces. </p>
                 
-                <p>Gestir sjá sjálfir um þvotta og þrif á sínum herbergjum ásamt sameiginlegum rýmum.</p>
+                <p>Guests take care of their own washing and cleaning.</p>
 
           </div>
           <div class="col-lg-6">
             <div class="container">
               <form action="https://api.staticforms.xyz/submit" method="post">
                 <div class="mb-3">
-                  <label for="Name" class="form-label">Nafn</label>
+                  <label for="Name" class="form-label">Name</label>
                   <input id="Name" type="text" name="name" class="form-control">
                 </div>
                 <div class="mb-3">
-                  <label for="Email" class="form-label">Netfang</label>
+                  <label for="Email" class="form-label">Email</label>
                   <input type="text" name="email"  class="form-control" id="Email" aria-describedby="emailHelp"/>
-                  <div id="emailHelp" class="form-text">Við munum aldrei deila upplýsingunum þínum með öðrum</div>
+                  <div id="emailHelp" class="form-text">We will never share your data</div>
                 </div>
                 <div class="mb-3">
-                  <label class="form-label">Tegund herbergis</label>
+                  <label class="form-label">Room type</label>
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="$Room" id="oner" value="Eins manns herbergi">
-                    <label class="form-check-label" for="twor">Eins manns hergergi (Eitt 120cm rúm)</label>
+                    <label class="form-check-label" for="twor">A single room (One 120cm bed)</label>
                   </div>
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="$Room" id="twor" value="Tveggja manna herbergi" checked>
-                    <label for="twor" class="form-check-label">Tveggja manna herbergi (Tvö 90cm rúm)</label>
+                    <label for="twor" class="form-check-label">A double room (Two 90cm beds)</label>
                   </div>
                 </div>
                 <input type="text" name="honeypot" style="display:none">
                 <div class="mb-3">
-                  <label for="DateFrom" class="form-label">Frá</label>
+                  <label for="DateFrom" class="form-label">From</label>
                   <input type="text" name="$DateFrom" id="DateFrom" class="selector form-control">
                 </div>
                 <div class="mb-3">
-                  <label for="DateTo" class="form-label">Til</label>
+                  <label for="DateTo" class="form-label">To</label>
                   <input type="text" name="$DateTo" id="DateTo" class="selector form-control">
                 </div>
               
               <div class="mb-3">
-                <label for="MSG" class="form-label">Upplýsingar um dvöl og athugasemdir</label>
+                <label for="MSG" class="form-label">information about your stay and comments</label>
                 <textarea name="message" id="MSG" class="form-control"></textarea>
               </div>
                 <input type="hidden" name="accessKey" value="7f15fa3f-469f-4c70-8846-5f6d17de958b">
-                <input type="hidden" name="subject" value="Umsókn um aðstððu" />
+                <input type="hidden" name="subject" value="Application for facilities" />
                 <input type="hidden" name="replyTo" value="@">
                 <input type="hidden" name="redirectTo" value="http://fell.salvarsson.is/success">
-                <input type="submit" value="Sækja um" class="btn-get-started btn"/>
+                <input type="submit" value="Apply for space" class="btn-get-started btn"/>
             </form>
             </div>
           </div>
@@ -148,28 +148,28 @@
             <p>
               Kvígindisfell ehf. <br>
               Kvígindisfelli, 461 Tálknafjörður<br>
-              Ísland<br><br>
-              <strong>Hafa samband:</strong> &#105;&#110;&#102;&#111;&#064;&#102;&#101;&#108;&#108;&#114;&#101;&#115;&#105;&#100;&#101;&#110;&#099;&#121;&#046;&#105;&#115;<br>
+              Iceland<br><br>
+              <strong>Contact us:</strong> &#105;&#110;&#102;&#111;&#064;&#102;&#101;&#108;&#108;&#114;&#101;&#115;&#105;&#100;&#101;&#110;&#099;&#121;&#046;&#105;&#115;<br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-3 footer-links">
             <h4>Leiðatré</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Heim</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./about-us.html">Um okkur</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./rooms.html">Herbergi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./location.html">Umhverfið</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./book.html">Sækja um</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./index-en.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./about-us-en.html">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./rooms-en.html">Rooms</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./location-en.html">Location</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./book-en.html">Book</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-3 footer-links">
-            <h4>Aðrir hlekkir</h4>
+            <h4>Other links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.westfjords.is/is/afangastadir/thettbyli/talknafjordur">Tálknafjörður</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.westfjords.is/is/afangastadir/thettbyli/bildudalur">Bíldudalur</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.westfjords.is/is/afangastadir/thettbyli/patreksfjordur">Patreksfjörður</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.westfjords.is/en/destinations/towns/talknafjordur">Tálknafjörður</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.westfjords.is/en/destinations/towns/bildudalur">Bíldudalur</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.westfjords.is/en/destinations/towns/patreksfjordur">Patreksfjörður</a></li>
             </ul>
           </div>
 
